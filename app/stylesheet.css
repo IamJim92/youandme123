@@ -1,0 +1,37 @@
+/* HOME */
+.banner {
+  width: 70%;
+  height: 16rem;
+  margin: auto;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-button {
+  width: 70%;
+  height: 2rem;
+  margin: auto;
+  margin-top: .5rem;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-files {
+  /* display: none; */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5em;
+}
+
+.row .column {
+  flex: 30%;
+  padding: 0.1em;
+  background-color: blueviolet;
+}
